@@ -6,6 +6,7 @@ const Home = () => {
     const category = useContext(CategoryContext);
     return (
         <div style={{border: '1px solid purple'}}>
+            <p>home</p>
             <h1>This is Home: {category}</h1>
             <Categories></Categories>
         </div>
